@@ -1,7 +1,5 @@
 ## E-commerce Retail
-
-![](./image/Online Shopping.jpg)
-
+<div style="text-align:center"><img src='/image/img.png' width=1500 /></div>.
 ## I. Introduce
     
 ### 1. Overview
@@ -34,8 +32,7 @@ The dataset used
 >     https://api.semanticscholar.org/CorpusID:3673926
 
 ## II. Architecture
-
-![](./image/Pipeline.drawio.png)
+<div style="text-align:center"><img src='./image/Pipeline.drawio.png' width=1500 /></div>.
 
 #### 1. Containerize the application with `Docker` and orchestrate assets with `Dagster`.
 #### 2. Bronze layer
@@ -111,13 +108,17 @@ The dataset used
 
 - Convert the `Pandas` DataFrame to `.csv` and then import it into `MinIO`.
 
-![](./image/Silver.png)
+
+<div style="text-align:center"><img src='./image/Silver.png' width=1500 /></div>.
+
+
 
 
 #### 4. Gold layer
   - Load data from MinIO into `Pandas` to convert the raw to gold.
     - Outlier Analysis:
       > - Outliers are values within a dataset that vary greatly from the others. They’re either much larger, or significantly smaller.
+      <div style="text-align:center"><img src='./image/Silver.png' width=1500 /></div>.
       
       ![](./image/Outlier.png)
       > - There are 2 types of outliers and we will treat outliers as it can skew our dataset:
@@ -183,11 +184,13 @@ The dataset used
         > ```
   - Convert the `Pandas` DataFrame to `.parquet` and then import it into `MinIO`.
 
-![](./image/gold.png)
+
+<div style="text-align:center"><img src='./image/gold.png' width=1500 /></div>.
 
     
 #### 5. Using `Postgres` transform as necessary.
-![](./image/warehouse.png)
+<div style="text-align:center"><img src='./image/warehouse.png' width=1500 /></div>.
+
 #### 6. Utilize `Power BI` to visualize the data.
 
 ## III. Data Lineage
