@@ -198,9 +198,3 @@ The dataset used
 
 ## IV. Visualization 
 ![](./image/Online-Retail.png)
-
-
-
-
-
-
