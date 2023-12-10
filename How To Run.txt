@@ -1,0 +1,11 @@
+
+Requirements Tool: Docker, Dagster
+
+Run:
+    cd Online-Retail
+    docker compose build
+    docker compose up -d
+
+Debug:
+    docker compose down
+    docker logs <container_id>

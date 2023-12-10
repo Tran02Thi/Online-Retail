@@ -193,7 +193,8 @@ The dataset used
 ## III. Data Lineage
 ![](./image/data_pipeline_state.png)
 
-## IV. Visualize
+## IV. Visualization 
+![](./image/Online-Retail.png)
 
 
 
