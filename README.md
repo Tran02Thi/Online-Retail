@@ -1,11 +1,11 @@
-## E-commerce Retail
-<div style="text-align:center"><img src='/image/img.png' width=1500 /></div>.
+## Precision Marketing Analytics
+
+<div style="text-align:center"><img src='/image/img.png' width=1500 /></div>
+
 ## I. Introduce
     
 ### 1. Overview
-    This is a transnational data set which contains all the transactions
-    occurring between 01/12/2010 and 09/12/2011 for a UK-based 
-    and registered non-store online retail.
+       Implement a hierarchical cluster algorithm to cluster target customers and evaluate based on RFM Segmentation
 ### 2. The goal of this project
 The purpose of this paper was to demonstrate the process of implementing ETL (Extract, Transform, Load) on non-store online retail occurring between 01/12/2010 and 09/12/2011 for a UK-based. The report's objectives are as follows:
 - Online retail data source is presented in detail
